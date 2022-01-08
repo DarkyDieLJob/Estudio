@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0215a27b-9cd7-4bf3-b2ae-5310aec1da18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/01_intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/02_production.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/03_ethics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/04_mnist_basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/05_pet_breeds.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/06_multicat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/07_sizing_and_tta.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/08_collab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/09_tabular.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/10_nlp.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/11_midlevel_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/12_nlp_dive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/13_convolutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/14_resnet.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/15_arch_details.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/16_accel_sgd.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/17_foundations.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/18_CAM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/19_learner.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/20_conclusion.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README_bn.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README_es.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README_id.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README_ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/README_zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/app_blog.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/app_jupyter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/01_intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/02_production.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/03_ethics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/04_mnist_basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/05_pet_breeds.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/06_multicat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/07_sizing_and_tta.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/08_collab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/09_tabular.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/10_nlp.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/11_midlevel_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/12_nlp_dive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/13_convolutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/14_resnet.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/15_arch_details.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/16_accel_sgd.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/17_foundations.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/18_CAM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/19_learner.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/20_conclusion.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/app_blog.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/app_jupyter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/clean/images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/0_jupyter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/Dropout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/Dropout1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/LSTM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/analytics_chain.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00063.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/att_00071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_busy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_cat_example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_markdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_new_notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter1_terminal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_bouncing.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_bouncy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_derivative.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_div.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_layer3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_layer4and5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_perfect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_sgd.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter2_small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter4_1cycle_schedule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter4_overfit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter7_neuron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_baseconv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_bottleneck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_cat_conv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_conv_basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_conv_pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_conv_rgb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_conv_stride.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_loss_landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_nopadconv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_padconv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_rgb_conv_stack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_rgbconv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_skip_connection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/chapter9_strideconv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/colorful_dist.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/colorful_summ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/decision_tree.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/doc_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/driver.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/drivetrain-approach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image17.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image18.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/image9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/ethics/pipeline_diagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fast_template/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/fltscale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/commit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/gitblog/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/grad_illustration.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/grizzly.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/healthy_skin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/layer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/layer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/matmul2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/mnist3_xl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/mnist3_xl_300.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/mnist3_xl_custom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/pratchett.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/profit_drivers.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/sklearn_features.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/tarsier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/timeseries1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/timeseries2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/images/timeseries3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/tools/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FastAI/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Please Wait.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastAI/01_intro/esp.ipynb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23NXMKgZ4cKJ6MTB325tb2Gv81F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DieL\Documents\GitHub\Estudio\Projectos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DieL\Documents\GitHub\Estudio\Projectos\datos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Projectos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0215a27b-9cd7-4bf3-b2ae-5310aec1da18" name="Changes" comment="" />
+      <created>1641575473502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641575473502</updated>
+      <workItem from="1641575475227" duration="1420000" />
+      <workItem from="1641584520392" duration="8241000" />
+      <workItem from="1641616815036" duration="1681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projectos$main.coverage" NAME="main Coverage Results" MODIFIED="1641592281432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
