@@ -21,3 +21,7 @@ Created on Sat Jan  8 03:25:42 2022
 #
 # En funciones.py implementar una función que pase los 
     # datos a gráfico
+#
+# Cambiar toda la estructura a un esquema orientado a objetos.
+#
+#

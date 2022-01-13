@@ -8,8 +8,6 @@ import dash
 from dash import dcc
 from dash import html
 import plotly.express as px
-import pandas as pd
-import main
 
 def grafico_barras(df, x, y, barra):
     app = dash.Dash(__name__)
