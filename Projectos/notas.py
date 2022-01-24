@@ -24,4 +24,5 @@ Created on Sat Jan  8 03:25:42 2022
 #
 # Cambiar toda la estructura a un esquema orientado a objetos.
 #
-#
+# Aprender a hacer scraping...
+    # retirar los valores de las páginas de evemarket

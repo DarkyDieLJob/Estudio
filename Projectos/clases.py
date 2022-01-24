@@ -7,11 +7,7 @@ Created on Sat Jan  8 18:16:25 2022
 import pandas as pd
 class _Item():
 
-    def __init__(self, 
-            nombre,  
-            volumen, 
-            precio_estimado, 
-            precio_de_mercado, ) -> None:
+    def __init__(self, nombre, volumen, precio_estimado, precio_de_mercado, ) -> None:
         
         self.nombre = nombre
         self.volumen = volumen
@@ -20,14 +16,11 @@ class _Item():
 
 class Minerales(_Item):
 
-    def __init__(self, 
-            nombre,  
-            volumen, 
-            precio_estimado, 
-            precio_de_mercado, 
-            tiempo_de_minado, ) -> None:
+    def __init__(self, nombre, volumen, precio_estimado, precio_de_mercado, tiempo_de_minado, ) -> None:
         self.tiempo_de_minado = tiempo_de_minado
         super().__init__(nombre,  
             volumen, 
             precio_estimado, 
             precio_de_mercado,) 
+
+
