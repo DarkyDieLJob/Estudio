@@ -98,6 +98,7 @@ def valor_venta(datos):
                  'Valor_Amarr_Hora', ]])
     return None
 
+
 def pasar_grafico(datos):
     dfaux = pd.DataFrame(columns=['Mineral', 'Sistema', 'Valor'])
     dfaux2 = pd.DataFrame(columns=['Mineral', 'Sistema', 'Valor'])
@@ -107,3 +108,26 @@ def pasar_grafico(datos):
     dfaux2['Sistema'] = 'Amarr'
     dfaux = dfaux.append(dfaux2)
     return dfaux
+
+
+def iterar_código(código,dic):
+    print(f'###################\n\nCódigo: {código}\n')
+    link = 'base'
+    cont = 0
+    for i in código:
+        cont += 1
+        index = str(cont)
+        n = int(i)
+        if n > 0:
+            link = link + f'/lista[{n}]'
+            if not (n in dic[index]):
+                dic[index].add(n)
+                print(f'Se clikeo en la ruta: {link} y se adirió {n} a "{dic[index]}"')
+    return print(f'\nLa ruta completa es: {link}\n')
+
+
+if __name__ == '__main__':
+    dic = {'1':set(),'2':set(),'3':set(),'4':set(),'5':set()}
+    iterar_código('22500',dic)
+    iterar_código('21300',dic)
+    iterar_código('31500',dic)
