@@ -5,6 +5,10 @@ Created on Sat Jan  8 18:16:25 2022
 @author: DieL
 """
 import pandas as pd
+from lib2to3.pgen2 import driver
+import random
+from time import sleep
+from selenium import webdriver
 
 
 def debuguear(debug, cadena, dato):
@@ -110,12 +114,19 @@ def pasar_grafico(datos):
     return dfaux
 
 
-def iterar_código(código,dic):
+def clikear(driver, ruta):
+    item = driver.find_element_by_xpath(ruta)
+    item.click()
+    sleep(0.5)
+
+
+def iterar_código(driver, código,dic):
     print(f'###################\n\nCódigo: {código}\n')
-    link = '/html/body/div/div[2]/div[1]/div/div/div[1]/div[2]/ul/li[6]'
+    ruta = '/html/body/div/div[2]/div[1]/div/div/div[1]/div[2]/ul/li[6]'
     cont = 0
     dígito = ''
     item = ''
+    clikear(driver, ruta)
     for i in código:
         cont += 1
         # print(f'Contador está en {cont}')
@@ -131,15 +142,15 @@ def iterar_código(código,dic):
             # ruta
             index = str(cont)
             
-            if 0<cont<6:
+            if 0<cont<6 and cont!=4:
                 if n>0:
-                    link = link + f'/div/ul/li[{n}]'
+                    ruta = ruta + f'/div/ul/li[{n}]'
                     if not(n in dic[index]):
                         dic[index].add(n)
-                        print(f'Se clikeo en la ruta: {link} y se adirió {n} a "{index}"')
+                        clikear(driver, ruta)
             elif n>0 and cont==7:
-                    link = link + f'/h{n}/a]'
-                    print(f'Se clikeo en El item: {link} y se adirió {n} a "{index}"')
+                    ruta = ruta + f'/div/ul/li[{n}]/h5/a'
+                    clikear(driver, ruta)
             # print(f'cont {cont}')
 
         if cont==4:
@@ -152,11 +163,54 @@ def iterar_código(código,dic):
             item = i
             # print(f'item {item} en contador {cont}')
 
-    return print(f'\nLa ruta completa es: {link}\n')
+    return ruta
+
+
+def extraer_datos_items(driver, ruta):
+    
+    nombre = driver.find_element_by_xpath(ruta).text
+#    precio_venta = driver.find_element_by_xpath('/html/body/div/div[2]/div[2]/div/div[2]/ul/li[1]/h4/a')
+
+
+    
+    '''diccionario = {
+        'nombre':nombre, 
+        'volumen':volumen, 
+        'omega':omega, 
+        'precio_compra':precio_compra, 
+        'ubicación_compra':ubicación_compra, 
+        'precio_venta':precio_venta, 
+        'ubicación_venta':ubicación_venta, 
+        'categoría':categoría,
+        }'''
+        
+    return nombre
+    
+
+
+def guardar_dic_conjuntos(dic):
+    # print(f'Diccionario creado: \n {dic}')
+    ruta = 'C:/Users/DieL/Documents/GitHub/Estudio/Projectos/datos/dic.csv'
+    try:
+        # print(f'Diccionario antes de leer: \n {dic}')
+        df_dic = pd.read_csv(str(ruta))
+        dic = df_dic.set_index('Posición').T.to_dict('list')
+        for i in dic:
+            dic[i] = set(dic[i]) 
+    except:
+        pass
+    # print(f'Diccionario después de leer: \n {dic}')
+    for i in dic:
+            dic[i] = list(dic[i])
+
+    # print(f'Diccionario Antes de guardar: \n {dic}')
+    df_dic = pd.DataFrame.from_dict(dic, orient='index')
+    # print(f'DF Antes de Transposicionar: \n {df_dic}')
+    df_dic = df_dic.transpose()
+    # print(f'DF Después de Transposicionar: \n {df_dic}')
+    guardar_df(df_dic, ruta)
 
 
 if __name__ == '__main__':
-    dic = {'1':set(),'2':set(),'3':set(),'4':set(),'5':set()}
-    iterar_código('2250015',dic)
-    iterar_código('2130004',dic)
-    iterar_código('3150022',dic)
+    
+    
