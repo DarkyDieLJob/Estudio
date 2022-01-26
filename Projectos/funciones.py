@@ -112,22 +112,51 @@ def pasar_grafico(datos):
 
 def iterar_código(código,dic):
     print(f'###################\n\nCódigo: {código}\n')
-    link = 'base'
+    link = '/html/body/div/div[2]/div[1]/div/div/div[1]/div[2]/ul/li[6]'
     cont = 0
+    dígito = ''
+    item = ''
     for i in código:
         cont += 1
-        index = str(cont)
-        n = int(i)
-        if n > 0:
-            link = link + f'/lista[{n}]'
-            if not (n in dic[index]):
-                dic[index].add(n)
-                print(f'Se clikeo en la ruta: {link} y se adirió {n} a "{dic[index]}"')
+        # print(f'Contador está en {cont}')
+        if cont!=4 or cont!=6:
+            n = int(i)
+
+            if cont==5:
+                n = int(dígito + i)
+            elif cont==7:
+                n = int(item + i)
+
+
+            # ruta
+            index = str(cont)
+            
+            if 0<cont<6:
+                if n>0:
+                    link = link + f'/div/ul/li[{n}]'
+                    if not(n in dic[index]):
+                        dic[index].add(n)
+                        print(f'Se clikeo en la ruta: {link} y se adirió {n} a "{index}"')
+            elif n>0 and cont==7:
+                    link = link + f'/h{n}/a]'
+                    print(f'Se clikeo en El item: {link} y se adirió {n} a "{index}"')
+            # print(f'cont {cont}')
+
+        if cont==4:
+            # print(f'cont {cont}')
+            dígito = i
+            # print(f'digito {dígito} en contador {cont}')
+        
+        if cont==6:
+            # print(f'cont {cont}')
+            item = i
+            # print(f'item {item} en contador {cont}')
+
     return print(f'\nLa ruta completa es: {link}\n')
 
 
 if __name__ == '__main__':
     dic = {'1':set(),'2':set(),'3':set(),'4':set(),'5':set()}
-    iterar_código('22500',dic)
-    iterar_código('21300',dic)
-    iterar_código('31500',dic)
+    iterar_código('2250015',dic)
+    iterar_código('2130004',dic)
+    iterar_código('3150022',dic)
