@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jan  8 18:16:25 2022
-
 @author: DieL
 """
 from funciones import iterar_código, extraer_datos_items, guardar_dic_conjuntos

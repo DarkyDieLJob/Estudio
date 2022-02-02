@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jan  8 18:16:25 2022
-
 @author: DieL
 """
 from logging import debug

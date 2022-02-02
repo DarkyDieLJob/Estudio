@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jan  8 18:16:25 2022
-
 @author: DieL
 """
 from lib2to3.pgen2 import driver
