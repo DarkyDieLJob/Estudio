@@ -168,6 +168,8 @@ def iterar_código(driver, código,dic):
 
 def extraer_datos_items(driver, ruta):
     
+
+    
     nombre = driver.find_element_by_xpath(ruta).text
 #    precio_venta = driver.find_element_by_xpath('/html/body/div/div[2]/div[2]/div/div[2]/ul/li[1]/h4/a')
 
